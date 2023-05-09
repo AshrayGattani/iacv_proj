@@ -280,7 +280,7 @@ min_count_for_similar_shift_vectors_spin.pack(anchor=CENTER,pady=3)
 accuracy_test_button=Button(middleframe,text="Accuracy Test",bg='gray' ,width=15,command=AccuracyTest)
 accuracy_test_button.pack(anchor=CENTER,pady=7)
 
-status=Label(root,text="Made By us",bd=1,relief=SUNKEN)
+status=Label(root,text="Made By Vraj and Ashray",bd=1,relief=SUNKEN)
 status.pack(side=BOTTOM,fill=X)
 
 root.mainloop()
