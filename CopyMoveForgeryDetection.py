@@ -62,8 +62,8 @@ def OpenShowImage():
 	img=cv2.imread('{}'.format(filename),0)
 
 def AccuracyTest():
-	filename1 = filedialog.askopenfilename(initialdir = "../Forged%20Images/",title ="Open File",filetypes = (("png files","*.png"),("bmp files","*.bmp"),("jpeg files","*.jpg"),("All Files","*.*")))
-	img_for_accuracy = cv2.imread(filename1,0)
+	filename = filedialog.askopenfilename(initialdir = "../Forged%20Images/",title ="Open File",filetypes = (("png files","*.png"),("bmp files","*.bmp"),("jpeg files","*.jpg"),("All Files","*.*")))
+	img_for_accuracy = cv2.imread('filename.png',0)
 	dp=0
 	yp=0
 	yn=0
